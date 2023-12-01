@@ -1,0 +1,44 @@
+.navbar{
+    background-color: rgb(251, 280, 198);
+    display:flex;
+    width: 100%;
+    height: 70px;
+    justify-content:space-between;
+
+}
+.header{
+    width: 25%;
+    line-height: 70px;
+    text-align: left;
+    font-size: 25px;
+    height: 100%;
+}
+
+.container{
+    display:flex;
+    width: 65%; 
+    height: 100%;  
+    justify-content:end;
+}
+
+.container a {
+    color: white;
+    text-decoration: none;
+    margin: 10px 10px;
+    padding:  10px;
+    border-radius: 10px;
+    
+    
+}
+.box-1{
+    background-color: forestgreen;
+}
+.box-2{
+    background-color: rgb(66, 66, 237);
+}
+.box-3{
+    background-color: orangered;
+}
+.box-4{
+    background-color: #A927B5;
+}
