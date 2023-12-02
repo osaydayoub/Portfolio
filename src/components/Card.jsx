@@ -6,9 +6,10 @@ function Card({project}) {
     <div className='card-container'>
         <h1>{project.title}</h1>
         <p>{project.description}</p>
-        <a href={project.link}>vist my website</a>
-        <img className='card-img' src={project.img} alt="img" />
-        {console.log(project.img)}
+        <a href={project.link}><img className='card-img' src={project.img} alt="img" /></a>
+        {/* <a href={project.link}>visit my website</a>
+        <img className='card-img' src={project.img} alt="img" /> */}
+        
     </div>
   )
 }

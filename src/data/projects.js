@@ -4,6 +4,7 @@ import flightsBookingImg from '../assets/flightsBooking.png'
 
 const projectsData = [
     {
+        id:101,
         title: "Minecraft",
         description: `Minecraft is a sandbox video game initially created by 
         Swedish programmer, Markus "Notch" Persson . The 
@@ -16,6 +17,7 @@ const projectsData = [
         img: minecraftImg
     },
     {
+        id:102,
         title: "Dice Game",
         description: `A fun dice game
         The game has 2 players, playing in rounds.
@@ -25,6 +27,7 @@ const projectsData = [
         img: dicegameImg
     },
     {
+        id:103,
         title: "Flights Booking",
         description: `Travel planner website with user authentication,
         flight management, and booking features. This

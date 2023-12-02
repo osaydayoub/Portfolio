@@ -5,14 +5,15 @@ function Contact() {
         <div className='contact-container'>
             <h2>Contact Us</h2>
             <form id="user-form">
-                <label for="username">Name:</label>
+                <label htmlFor="username">Name:</label>
                 <input type="text" id="username" name="username" required />
-                <div class="error-message" id="usernameError"></div>
-                <label for="email">Email:</label>
+
+                <label htmlFor="email">Email:</label>
                 <input type="email" id="email" name="email" required />
-                <textarea rows="4" cols="40" name="description">
-                    Enter your message here...
-                </textarea>
+
+                <label htmlFor="text-id">Enter your message here...</label>
+                <textarea id="text-id" rows="4" cols="40" />
+
                 <input type="submit" value="Submit" />
             </form>
         </div>
