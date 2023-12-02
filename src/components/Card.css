@@ -1,0 +1,12 @@
+.card-container{
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    border: solid 3px black;
+    
+
+}
+.card-img{
+    width: 250px;
+    height: 120px;
+}
