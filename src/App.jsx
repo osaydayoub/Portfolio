@@ -14,7 +14,7 @@ function App() {
     <>
       <Header></Header>
       <Hero></Hero>
-      <div className='cards-container'>{
+      <div className='cards-container' id='cards-id'>{
         projectsData.map((project) => {
           return (
             <Card key={project.id} project={project} />

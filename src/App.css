@@ -1,4 +1,15 @@
-.cards-container{
+#root {
+    width: 100%;
     display: flex;
-    gap: 15px;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.cards-container {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }

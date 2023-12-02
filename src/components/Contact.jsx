@@ -2,7 +2,7 @@ import React from 'react'
 import './Contact.css'
 function Contact() {
     return (
-        <div className='contact-container'>
+        <div className='contact-container' id='contact-id'>
             <h2>Contact Us</h2>
             <form id="user-form">
                 <label htmlFor="username">Name:</label>
