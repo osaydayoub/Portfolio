@@ -1,10 +1,12 @@
 import { useState } from 'react'
 import './App.css'
+import projectsData from "./data/projects.js"
 import Header from './components/Header.jsx'
 import Hero from './components/Hero.jsx'
 import Card from './components/Card.jsx'
+import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx'
-import projectsData from "./data/projects.js"
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
         })
       }
       </div>
+      <Contact/>
       <Footer/>
 
     </>

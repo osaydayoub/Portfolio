@@ -1,0 +1,11 @@
+#user-form{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items:center;    
+    font-size: large;
+    border: solid 2px black;
+}
