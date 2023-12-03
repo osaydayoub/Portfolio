@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
-import TabButton from './TabButton.jsx'
 import examplesData from '../data/examples.js'
+import './Examples.css'
 
 function Examples() {
   const [selectedTopic, setselectedTopic] = useState('Please click a button');
@@ -22,12 +22,12 @@ function Examples() {
   return (
     <section id="examples">
       <h2>Examples</h2>
-      <menu>
-        <TabButton onSelect={() => handleSelect('HTML')}>HTML</TabButton>
-        <TabButton onSelect={() => handleSelect('Javascript')}>Javascript</TabButton>
-        <TabButton onSelect={() => handleSelect('React')}>React</TabButton>
-      </menu>
-      <p>{selectedTopic}</p>
+      <div className='buttons-container'>
+        <button onClick={() => handleSelect('HTML')}>HTML</button>
+        <button onClick={() => handleSelect('Javascript')}>Javascript</button>
+        <button onClick={() => handleSelect('React')}>React</button>
+      </div>
+      <div className='show-box'>{selectedTopic}</div>
     </section>
   )
 }
